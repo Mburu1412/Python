@@ -1,3 +1,8 @@
+"""
+Name : Mburu Martin
+Adm No : BSCIT-05-0167/2024
+Program for a Bank Account using a class
+"""
 class BankAccount:
     def __init__(self, account_Number, customer_Name, date_of_opening, balance):
         self.account_Number = account_Number
