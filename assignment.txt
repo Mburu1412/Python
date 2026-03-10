@@ -1,0 +1,6 @@
+Area of Rectangle
+Volume of cylinder = V = pi*r*r*h
+Grading System
+Area of Circle
+Volume of Sphere = V = (4/3)pi.r*r*r
+Sum of list of inputed numbers

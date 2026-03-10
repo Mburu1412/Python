@@ -1,0 +1,2 @@
+Your salary is: 10000.00 and years of service: 9
+Your bonus amount is: Ksh. 800.00

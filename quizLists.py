@@ -1,3 +1,6 @@
+#Mburu Martin
+#BSCIT-05-0167/2024
+
 names = []
 while True:
     name = input("Enter a name (or leave blank to finish):")

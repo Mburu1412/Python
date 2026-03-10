@@ -1,0 +1,63 @@
+"""
+Inheritance
+"""
+Simple
+class A:""" PARENT CLASS"""
+    pass
+
+class B(A): """CHILD CLASS"""
+    pass
+
+Multi Level
+class A: """PARENT CLASS"""
+    pass
+
+class B(A): """CHILD CLASS"""
+    pass
+
+class C(B): """CHILD CLASS"""
+    pass
+
+HIERARCHICAL
+class A: """ PARENT CLASS"""
+    pass
+
+class B(A): """CHILD CLASS"""
+    pass
+
+class C(A): """CHILD CLASS"""
+    pass
+
+MULTIPLE INHERITANCE
+class A: """ PARENT CLASS"""
+    pass
+
+class B: """ PARENT CLASS"""
+    pass
+
+class C(A, B): """CHILD CLASS"""
+    pass
+
+HYBRID INHERITANCE
+class A: """ PARENT CLASS"""
+    pass
+
+class B(A): """CHILD CLASS"""
+    pass
+
+class C(A): """CHILD CLASS"""
+    pass
+
+class D(B, C): """CHILD CLASS"""
+    pass
+
+INHERITING THE __init__() Function
+class Person:
+    def __init__(self, fname, lname):
+        self.fname = fname
+        self.lname = lname
+
+class Student(Person):
+    def __init__(self, fname, lname, age):
+        self.age = age
+        Person.__init__(self, fname, lname) """Super().__init__(fname, lname)"""

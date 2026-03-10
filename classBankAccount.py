@@ -29,7 +29,7 @@ class BankAccount:
         print(f"Balance : ${self.balance:.2f}.")
 
 #Object Creation
-account1 = BankAccount("5rfv", "John Doe", "2026-01-01", 1000)
+account1 = BankAccount("5r5548", "Harry Wilson", "2026-01-01", 1000)
 account1.customer_details()
 print(f"Deposited : {account1.deposit(1000)}.")
 account1.check_balance()
