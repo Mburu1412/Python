@@ -61,3 +61,12 @@ class Student(Person):
     def __init__(self, fname, lname, age):
         self.age = age
         Person.__init__(self, fname, lname) """Super().__init__(fname, lname)"""
+
+Public Variables
+self.name
+
+Protected Variables
+self._name
+
+Private Variables
+self.__name
